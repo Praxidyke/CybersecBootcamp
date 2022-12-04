@@ -1,0 +1,28 @@
+From analysis of player data we know that losses occurred at the following
+
+10/03
+0500
+0800
+1400
+2000
+2300
+
+12/03
+0500
+0800
+1400
+2000
+2300
+
+15/03
+0500
+0800
+1400
+
+-----------
+
+Findings
+
+-----------
+
+Billy Jones was the primary roulette dealer working around the times the casino experienced major losses, he was working all 13 times there was a loss

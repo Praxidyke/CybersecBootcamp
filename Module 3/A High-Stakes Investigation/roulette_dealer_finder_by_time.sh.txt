@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#Current working directory, change this if required
+cd /home/sysadmin/Desktop/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis
+
+#Capture date and time from user
+echo 
+read -p "Enter the Date [MMDD]: " date
+read -p "Enter the Time [HH:MM:SS am/pm]: " time_ampm
+
+#Query
+grep -i "$time_ampm" "$date"_Dealer_schedule | awk '{print "- Time: " $1, $2 "] Roulette Dealer: " $5, $6}'
